@@ -8,8 +8,8 @@
                 android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
                 <android.support.v4.view.ViewPager
                     android:id="@+id/pager"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
 
     <ImageView
         android:id="@+id/imageView1"
@@ -22,8 +22,7 @@
         android:layout_alignParentBottom="true"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/selectPic"/>
-
+        android:text="@string/selectPic" />
 
 
 </RelativeLayout>
