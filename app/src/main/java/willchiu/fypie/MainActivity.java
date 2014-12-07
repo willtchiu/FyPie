@@ -8,7 +8,6 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -28,10 +27,6 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         Button selectPic = (Button)findViewById(R.id.selectPic);
         imageView1 = (ImageView)findViewById(R.id.imageView1);
-
-        MainPagerAdapter adapter = new MainPagerAdapter();
-        ViewPager myPager = (ViewPager) findViewById(R.id.pager);
-        myPager.setAdapter(adapter);
 
         selectPic.setOnClickListener(new Button.OnClickListener(){
 
